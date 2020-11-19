@@ -13,6 +13,14 @@ The Learning from Death morality Review (LeDeR) is an organisation focused on th
 </ul>
 
 
+**Approach**
+SVMs were chosen as they have been found to achieve state of the art performance for NLP classification tasks. TF-IDF and word vectorisation approaches were compared and similar accuracies were achieved.
+This model and vectorisers was then exported and used for a simple TKinter text based interface.
+
+
+**Results**
+Due to caronavirus the effectiveness of the program was not able to be tested with the LeDeR coders however previous research into semi-automated classification prgrams the aacuracy threshold for improvement on time and accuracy was reached. The future works section of the report outlines how the tests should be carried out.
+
 
 The report detailing all aspects of the project can be viewed [here](/report.pdf).
 
@@ -21,5 +29,9 @@ The project involved the use of the following technologies:
 
 - Python
 - Pandas
+- sklearn
 - TQDM
+- TKinter
+- SVMs
+- Word2vec
 - Matplotlib
